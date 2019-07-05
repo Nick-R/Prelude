@@ -11,5 +11,5 @@ Pod::Spec.new do |spec|
   spec.requires_arc     = true
   spec.ios.deployment_target = "9.0"
   spec.osx.deployment_target = "10.9"
-  spec.dependency 'Runes'
+  spec.dependency 'Runes', '4.2.2'
 end
